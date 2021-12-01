@@ -1,0 +1,9 @@
+    .nav {
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    }
+
+    .nav-link {
+        color:white;
+    }
