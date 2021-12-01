@@ -1,9 +1,29 @@
-    .nav {
-    height: 100px;
+body {
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav {
+    height: 10%;
     background-color: black;
     position: sticky;
+    padding: 2%;
     }
 
-    .nav-link {
-        color:white;
+.nav img {
+        height: 60px;
+        opacity: 40%;
     }
+
+ .nav-link {
+    color:white;
+    font-family: "Proxima Nova Semibold",sans-serif;
+    font-size: 12px;
+    opacity: 60%;
+    }
+.container {
+    color:white;
+    font-family: "Proxima Nova Semibold",sans-serif;
+    font-size: 12px;
+}
