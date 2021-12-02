@@ -27,3 +27,7 @@ body {
     font-family: "Proxima Nova Semibold",sans-serif;
     font-size: 12px;
 }
+
+#projectTimeline img {
+    height:150px;
+}
