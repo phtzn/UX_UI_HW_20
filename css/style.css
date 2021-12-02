@@ -4,12 +4,61 @@ body {
     margin-right: 10%;
 }
 
+#h1{
+    color:white;
+    font-family: "Proxima Nova Semibold",sans-serif;
+    font-size: 72px;
+}
+
+h1{
+    color:white;
+    font-family: "Proxima Nova Semibold",sans-serif;
+    font-size: 72px;
+}
+
+h2{
+    color:white;
+    font-family: "Proxima Nova Semibold",sans-serif;
+    font-size: 48px;
+}
+
+h3{
+    color:white;
+    font-family: "Proxima Nova Regular",sans-serif;
+    font-size: 24px;
+}
+
+p{
+    color:white;
+    font-family: "Proxima Nova Regular",sans-serif;
+    font-size: 16px;
+    line-height: 240%;
+}
+
 .nav {
     height: 10%;
     background-color: black;
     position: sticky;
     padding: 2%;
     }
+
+#myRole {
+    margin-left: 5%;
+}
+
+#pagetitle{
+    display: block;
+    text-align: center;
+}
+#pagetitle2{
+    display: block;
+    text-align: center;
+}
+
+
+#casestudynav{
+    justify-content:space-evenly;
+}
 
 .nav img {
         height: 60px;
@@ -29,5 +78,13 @@ body {
 }
 
 #projectTimeline img {
-    height:150px;
+    height:75%;
+}
+
+#problem img{
+    height: 50%;
+}
+
+#userTesting {
+    line-height: 240%;
 }
