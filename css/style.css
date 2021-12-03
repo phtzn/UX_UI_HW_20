@@ -82,9 +82,24 @@ p{
 }
 
 #problem img{
-    height: 50%;
+    height: 400px;
+    float: right;
 }
 
-#userTesting {
-    line-height: 240%;
+#statements img{
+    height: 70%;
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+#userpersona img{
+    height:200px;
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+#userpersona h3 {
+    text-align: center;
 }
