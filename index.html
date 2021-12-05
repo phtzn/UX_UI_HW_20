@@ -10,8 +10,8 @@
 <!--Navigation-->
 <nav class="nav">
   <img src="images/headerlogo.png">
-  <a class="nav-link" href="#">HOME</a>
-  <a class="nav-link" href="#">MY SKILLS</a>
+  <a class="nav-link" href="/homepage html/index.html">HOME</a>
+  <a class="nav-link" href="/myskills html/index.html">MY SKILLS</a>
   <a class="nav-link" href="#">ABOUT<a>
   <a class="nav-link" href="#">CONTACT</a>
   </nav>
@@ -44,10 +44,10 @@
 <br>
 <!--Case Study Navigation-->
 <nav class="nav" id="casestudynav">
-  <a class="nav-link" href="#">PROJECT OVERVIEW</a>
-  <a class="nav-link" href="#">USER RESEARCH</a>
-  <a class="nav-link" href="#">USER TESTING</a>
-  <a class="nav-link" href="#">FINAL DESIGN</a>
+  <a class="nav-link" href="#pagetitle">PROJECT OVERVIEW</a>
+  <a class="nav-link" href="#userresearch">USER RESEARCH</a>
+  <a class="nav-link" href="#wireframes">WIREFRAMES</a>
+  <a class="nav-link" href="#finaldes">FINAL DESIGN</a>
   </nav>
   <br><br><br><br><br><br><br><br>
 <!--Project Overview-->
@@ -121,6 +121,7 @@ Although the website's current layout is not terrible, we were able to brainstor
       <hr style="height:3px">
 <br>
 <br>
+<div id="userresearch"></div>
 <h1 id="pagetitle2">User Research</h1>
 <br><br><br><br><br>
 <div class="row">
@@ -187,9 +188,7 @@ Although the website's current layout is not terrible, we were able to brainstor
   </div>
 </div>
 
-<br>
-<br>
-<br>
+
   <div class="row">
     <div class="col-sm " id="goals">
       <h3>Goals</h3>
@@ -259,6 +258,7 @@ Feels defeated when she cannot find what she is looking for in a website
 <br>
 <br>
 <!--Wireframes-->
+<div id="wireframes"></div>
   <h1 id="pagetitle2">Wireframes and Usability Testing</h1>
   <br>
 <br>
@@ -274,17 +274,28 @@ Feels defeated when she cannot find what she is looking for in a website
   </div>
   
   <div class="row" id="desktopwireframes">
-    <div class="col-sm">
+    <div class="col-sm" id="desktopv1">
       <img src="images/desktopwireframev1.png">
+      <br>
       <p>Our team has decided to base our initial design from the original layout and play with different elements. We like the big hero space aspect of the original layout so we decided to keep that but in an inline-image layout.
 
       Based on our research, we found out that users were confused as to what the Department of Interior is on their first web visit. Hence, we designed our hero space to contain a carousel that will allow users to browse through the Department of the Interior's core values. The secondary slides will be any featured news.
       </p>
     </div>
     
-    <div class="col-sm">
+    <div class="col-sm" id="desktopv2">
       <img src="images/desktopwireframe.png">
+      <br>
+      <p>We decided to test our initial wireframe and we have received feedback that it looked too similar with the current layout. So we have designed the hero space to include a bigger image and hero text to be aligned in the center which we feel would draw attention to the user.</p>
     </div>
+    
+  </div>
+  <div class="col-lg" id="desktopv3">
+    <h3>Version 3</h3>
+    <img src="/images/version3.png">
+    <p>Further iteration was required and a usability testing was performed with 7 users. They tested both desktop and mobile wireframes and each user was given the task of exploring the navigation menu, feel the homepage aesthetic, and navigate to articles.
+
+      We then decided to opt to a hero space with a statement image that takes up majority of the space, incorporate huge text, and make the CTA button pop.</p>
   </div>
   <br><br>
   <h2>Mobile Wireframes</h2>
@@ -302,16 +313,37 @@ Feels defeated when she cannot find what she is looking for in a website
     <div class="col-lg" id="v1">
       <img src="images/mobilewireframev1.png">
       <img src="images/mobilefooter.png">
-
+      <br>
+    
     </div>
     <div class="col-lg" id="v1">
       <img src="images/mobilewireframe.png">
       <img src="images/mobilefooterv2.png">
     </div>
   </div>
+  <br><br><br><br>
+  <h3>Version 3</h3>
+  <div class="col-lg" id="mobilev3">
+    <img src="images/mobilehomev3.png">
+    <img src="images/mobilev3.png">
+  </div>
+  <br><br>
+  <p>To have a good foundation for our mobile website design, 
+    we resized the elements of our desktop wireframe to how we
+     would imagine it would look like if it were to be mobile 
+     responsive. We felt as if it felt simple, bland, and again
+      similar to the current web design.</p>
+
+      <p>On our second version, we felt better about the redesign since
+        it felt more updated and user-friendly. We have updated the footer as well to be aligned to the left to make the website feel more cohesive.
+      </p>
+
+      <p>Before we performed our third iteration, we tested again with a different set of users and they loved the design. They know who the Department of Interior is and they find it easy to navigate throug the menu. We also changed the articles to be shown from a carousel layout to a single column layout.</p>
+
+
 <!--Final Design-->
 <hr style="height:3px">
-<div class="finalDesign">
+<div class="finalDesign" id="finaldes">
   <h1 id="pagetitle2">Final Design</h1>
 </div>
 <!--Bootstrap JS Script-->
