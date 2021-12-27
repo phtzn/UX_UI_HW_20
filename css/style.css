@@ -45,6 +45,7 @@ p{
     line-height: 240%;
 }
 
+
 .nav {
     height: 10%;
     background-color: black;
@@ -139,4 +140,11 @@ p{
     margin-left: 2%;
     margin-bottom: 2%;
     border-radius: 25px;
+}
+
+.finaldes img{
+    display: block;
+    align-items: center;
+    margin: autos;
+    height: 500px;
 }
